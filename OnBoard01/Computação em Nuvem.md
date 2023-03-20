@@ -50,6 +50,11 @@ O security group são regras para acessar a máquina virtual, precisamos habilit
 Ao terminar uma instancia, ela é excluída, porém, o security group continua, não há nenhum custo, mas é bom remover pela organização.
 
 Depois de um tempo considerável tentando, consegui acessar a máquina via SSH, não sei o que eu fiz de diferente, as regras de segurança permitiam conexões via HTTP, HTTPS e SSH de qualquer ipv4, mudei para "my ip" e funcionou, mas acredito que isso não tenha relação, dado que o erro continuou, mas eu pedi um "fingerprint" do erro e entrou de repente.
+
+```
+Falta de atenção minha, era só aceitar o aviso que na verdade era algo do tipo "continuar a conexão?" 
+```
+
 > No ubunto, ao invés do nginx, foi utilizar o apache2 para abrir HTTP.
 
 
@@ -58,3 +63,8 @@ Depois de um tempo considerável tentando, consegui acessar a máquina via SSH, 
 > Para saber mais sobre precificações, acesse o site: https://aws.amazon.com/pt/ec2/pricing/
 
 Até agora, só utilizamos máquinas sob demanda, pagando somente o que a gente usa, agora digamos que você precisa reservar uma máquina pelos próximos 2 anos, será que o plano por demanda é o mais custo benefício? não, o plano **reservado** concede planos de até **75% de desconto** em relação ao plano sob demanda. Instância **Spot**, em relação ao plano por demanda, também é mais barato, porém, ele utiliza a capacidade ociosa das máquinas, ou seja, a AWS pode a qualquer momento parar a nossa instância para reservar para outro caso, mas em compensação, o custo pode chegar até 90% mais barato, esse case é utilizado quando não há problema em ter interrupções nas suas instâncias.
+
+
+# **Bônus**
+Consegui uma máquina Kali na Azure:
+![kali](./imagens/kali.png)
