@@ -48,4 +48,11 @@ em seguida, só alterar.
 ![ssh](./imagens/ssh-alterar.png)
 
 ## **AWS VPC**
-Lá na aba **VPC** da aws, é possível observar que, ao entrar em uma região, nós já ganhamos uma VPC e uma ou mais subnets de acordo com as zonas de disponibilidade da região, exemplo, em Oregon temos 4 zonas, logo, 4 subnets.
+Lá na aba **VPC** da aws, é possível observar que, ao entrar em uma região, nós já ganhamos uma VPC e uma ou mais subnets de acordo com as zonas de disponibilidade da região, exemplo, em Oregon temos 4 zonas, logo, 4 subnets. Apesar dessa VPC ser criada automaticamente, a AWS nos diz para não utiliza-la na nossa aplicação, o ideal é criar outra.
+
+<div style="background-color: rgb(0, 153, 255); border-radius: 10px; text-align: center">
+
+```
+22/03/2023 - Nesse momento, ainda não sei muita coisa sobre redes, então só vou seguir o passo a passo mostrado na aula, ao concluir esse curso, vou iniciar a trilha de redes.
+```
+</div>
